@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint&display=swap');
+
+body {
+  background-color: white;
+  background-image: url("images/question-marks-vertical.jpg");
+  font-family: 'Finger Paint', cursive;
+  color: #2B061E;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Lacquer', sans-serif;
+  color: #B80C09;
+  line-height: 0.2
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+a {
+  font-family: 'Lacquer', sans-serif;
+  text-decoration: underline;
+  color: #B80C09;
+  font-size: 25px;
+}
+
+a:hover {
+  color: green;
+}
+
+.img-profile {
+  width: 300px;
+  border-radius: 50%;
+}
+.container {
+  width: 775px;
+  margin: 40px auto;
+}
+.card {
+  background: #F8F4E3;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-red {
+  background-color: #B80C09;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.btn-red:hover {
+  background-color: green;
+  color: white;
+}
+.text-profile {
+  margin-bottom: 20px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 575px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 475px;
+  }
+  .img-profile {
+    width: 250px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+  .text-profile {
+    font-size: 12px;
+  }
+  .btn-red {
+    font-size: 10px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 375px;
+  }
+  .img-profile {
+    width: 200px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .text-profile {
+    font-size: 10px;
+  }
+  .btn-red {
+    font-size: 8px;
+  }
+  a {
+    font-size: 10px;
+  }
+}
